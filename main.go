@@ -10,8 +10,11 @@ import (
 )
 
 func send() {
-	// Find your Account SID and Auth Token at twilio.com/console
-	// and set the environment variables. See http://twil.io/secure
+	// Find the Account SID and Auth Token at twilio.com/console
+	// and set the environment variables in .env file
+	//credentials will automatically get picked from there
+
+	// will throw error if encounters an error while reading the creds from .env file
 	err := godotenv.Load()
 	if err != nil {
 		fmt.Println("Error loading .env file:", err)
