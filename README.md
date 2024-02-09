@@ -10,3 +10,7 @@
 export TWILIO_ACCOUNT_SID=helloJiRaamRaam123
 export TWILIO_AUTH_TOKEN=aapkaAuthToken
 ```
+
+## Result
+
+![Twilio SMS Notification](./asset/twilio-sms.jpg)

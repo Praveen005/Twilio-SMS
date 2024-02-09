@@ -23,7 +23,7 @@ func send() {
 	client := twilio.NewRestClient()
 
 	params := &api.CreateMessageParams{}
-	params.SetBody("Hi there, Prateek is testing Twilio!")
+	params.SetBody("Hi there, Praveen is testing Twilio today!")
 	params.SetFrom("+12135663883")
 	params.SetTo("+919521427560")
 
